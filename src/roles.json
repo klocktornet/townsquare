@@ -1,153 +1,169 @@
 [
   {
     "id": "washerwoman",
-    "name": "Washerwoman",
+    "name": "Tvätterska",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 33,
-    "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
+    "firstNightReminder": "Visa karaktärsmarkören för en Stadsbo i spelet. Peka på två spelare, varav en har den karaktären.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Townsfolk",
-        "Wrong"],
+    "reminders": [
+      "Stadsbo",
+      "Fel"
+    ],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
+    "ability": "Du vet från början att 1 av 2 spelare är en viss Stadsbo."
   },
   {
     "id": "librarian",
-    "name": "Librarian",
+    "name": "Bibliotekarie",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 34,
-    "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
+    "firstNightReminder": "Visa karaktärsmarkören för en Utböling i spelet. Peka på två spelare, varav en har den karaktären.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Outsider",
-        "Wrong"],
+    "reminders": [
+      "Utböling",
+      "Fel"
+    ],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
+    "ability": "Du vet från början att 1 av 2 spelare är en viss Utböling. (Eller att ingen är med i spelet.)"
   },
   {
     "id": "investigator",
-    "name": "Investigator",
+    "name": "Utredare",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 35,
-    "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
+    "firstNightReminder": "Visa karaktärsmarkören för en Undersåte i spelet. Peka på två spelare, varav en har den karaktären.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Minion",
-        "Wrong"],
+    "reminders": [
+      "Undersåte",
+      "Fel"
+    ],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Minion."
+    "ability": "Du vet från början att 1 av 2 spelare är en viss Undersåte."
   },
   {
     "id": "chef",
-    "name": "Chef",
+    "name": "Kock",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 36,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": "Visa med fingrarna (0, 1, 2, …) antalet par av onda spelare som sitter bredvid varandra.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many pairs of evil players there are."
+    "ability": "Du vet från början hur många par av onda spelare det finns."
   },
   {
     "id": "empath",
-    "name": "Empath",
+    "name": "Empat",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 37,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "firstNightReminder": "Visa med fingrarna (0, 1, 2) hur många av Empatens levande grannar som är onda.",
     "otherNight": 53,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "otherNightReminder": "Visa med fingrarna (0, 1, 2) antalet onda grannar.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
+    "ability": "Varje natt får du veta hur många av dina 2 levande grannar som är onda."
   },
   {
     "id": "fortuneteller",
-    "name": "Fortune Teller",
+    "name": "Spåkvinna",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 38,
-    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
+    "firstNightReminder": "Spåkvinnan pekar på två spelare. Nicka (ja) eller skaka på huvudet (nej) för om någon av dem är Demonen.",
     "otherNight": 54,
-    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
-    "reminders": ["Red herring"],
+    "otherNightReminder": "Spåkvinnan pekar på två spelare. Nicka (ja) eller skaka på huvudet (nej) för om någon av dem är Demonen.",
+    "reminders": [
+      "Falskt spår"
+    ],
     "setup": false,
-    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    "ability": "Varje natt, välj 2 spelare: du får veta om någon av dem är en Demon. Det finns en god spelare som räknas som en Demon för dig."
   },
   {
     "id": "undertaker",
-    "name": "Undertaker",
+    "name": "Dödgrävare",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 55,
-    "otherNightReminder": "If a player was executed today: Show that player\u2019s character token.",
-    "reminders": ["Executed"],
+    "otherNightReminder": "Om en spelare avrättades i dag: Visa den spelarens karaktärsmarkör.",
+    "reminders": [
+      "Avrättad"
+    ],
     "setup": false,
-    "ability": "Each night*, you learn which character died by execution today."
+    "ability": "Varje natt* får du veta vilken karaktär som dog genom avrättning i dag."
   },
   {
     "id": "monk",
-    "name": "Monk",
+    "name": "Munk",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 12,
-    "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
-    "reminders": ["Protected"],
+    "otherNightReminder": "Den tidigare skyddade spelaren är inte längre skyddad. Munken pekar på en annan spelare än sig själv. Markera den spelaren som 'Skyddad'.",
+    "reminders": [
+      "Skyddad"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+    "ability": "Varje natt*, välj en spelare (inte dig själv): de är skyddade från Demonen i natt."
   },
   {
     "id": "ravenkeeper",
-    "name": "Ravenkeeper",
+    "name": "Korpvaktare",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 52,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player\u2019s character token.",
+    "otherNightReminder": "Om Korpvaktaren dog i natt: Korpvaktaren pekar på en spelare. Visa den spelarens karaktärsmarkör.",
     "reminders": [],
     "setup": false,
-    "ability": "If you die at night, you are woken to choose a player: you learn their character."
+    "ability": "Om du dör på natten väcks du för att välja en spelare: du får veta deras karaktär."
   },
   {
     "id": "virgin",
-    "name": "Virgin",
+    "name": "Jungfru",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
+    "ability": "Första gången du blir nominerad, om nomineraren är en Stadsbo, avrättas hen omedelbart."
   },
   {
     "id": "slayer",
-    "name": "Slayer",
+    "name": "Dråpare",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+    "ability": "En gång per spel, under dagen, välj offentligt en spelare: om hen är Demonen dör hen."
   },
   {
     "id": "soldier",
-    "name": "Soldier",
+    "name": "Soldat",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -156,11 +172,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You are safe from the Demon."
+    "ability": "Du är skyddad från Demonen."
   },
   {
     "id": "mayor",
-    "name": "Mayor",
+    "name": "Borgmästare",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -169,24 +185,26 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
+    "ability": "Om bara 3 spelare lever & ingen avrättning sker vinner ditt lag. Om du dör på natten kan en annan spelare dö i stället."
   },
   {
     "id": "butler",
-    "name": "Butler",
+    "name": "Betjänt",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 39,
-    "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "firstNightReminder": "Betjänten pekar på en spelare. Markera den spelaren som 'Husbonde'.",
     "otherNight": 67,
-    "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
-    "reminders": ["Master"],
+    "otherNightReminder": "Betjänten pekar på en spelare. Markera den spelaren som 'Husbonde'.",
+    "reminders": [
+      "Husbonde"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
+    "ability": "Varje natt, välj en spelare (inte dig själv): i morgon får du bara rösta om hen också röstar."
   },
   {
     "id": "drunk",
-    "name": "Drunk",
+    "name": "Fyllo",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -194,13 +212,15 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Drunk"],
+    "remindersGlobal": [
+      "Fyllo"
+    ],
     "setup": true,
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+    "ability": "Du vet inte att du är Fyllot. Du tror att du är en Stadsbo, men det är du inte."
   },
   {
     "id": "recluse",
-    "name": "Recluse",
+    "name": "Eremit",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -209,11 +229,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You might register as evil & as a Minion or Demon, even if dead."
+    "ability": "Du kan räknas som ond & som en Undersåte eller Demon, även om du är död."
   },
   {
     "id": "saint",
-    "name": "Saint",
+    "name": "Helgon",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -222,46 +242,50 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you die by execution, your team loses."
+    "ability": "Om du dör genom avrättning förlorar ditt lag."
   },
   {
     "id": "poisoner",
-    "name": "Poisoner",
+    "name": "Giftblandare",
     "edition": "tb",
     "team": "minion",
     "firstNight": 17,
-    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "firstNightReminder": "Giftblandaren pekar på en spelare. Den spelaren är förgiftad.",
     "otherNight": 7,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
-    "reminders": ["Poisoned"],
+    "otherNightReminder": "Den tidigare förgiftade spelaren är inte längre förgiftad. Giftblandaren pekar på en spelare. Den spelaren är förgiftad.",
+    "reminders": [
+      "Förgiftad"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
+    "ability": "Varje natt, välj en spelare: hen är förgiftad i natt och under dagen i morgon."
   },
   {
     "id": "spy",
-    "name": "Spy",
+    "name": "Spion",
     "edition": "tb",
     "team": "minion",
     "firstNight": 49,
-    "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "firstNightReminder": "Visa Grimoiren för Spionen så länge hen behöver.",
     "otherNight": 68,
-    "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "otherNightReminder": "Visa Grimoiren för Spionen så länge hen behöver.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead."
+    "ability": "Varje natt får du se Grimoiren. Du kan räknas som god & som en Stadsbo eller Utböling, även om du är död."
   },
   {
     "id": "scarletwoman",
-    "name": "Scarlet Woman",
+    "name": "Scharlakanskvinna",
     "edition": "tb",
     "team": "minion",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
-    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
-    "reminders": ["Demon"],
+    "otherNightReminder": "Om Scharlakanskvinnan blev Demonen i dag: Visa kortet 'Du är', sedan Demonens markör.",
+    "reminders": [
+      "Demon"
+    ],
     "setup": false,
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don\u2019t count)"
+    "ability": "Om 5 eller fler spelare lever & Demonen dör blir du Demonen. (Resenärer räknas inte.)"
   },
   {
     "id": "baron",
@@ -274,7 +298,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]"
+    "ability": "Det finns extra Utbölingar i spelet. [+2 Utbölingar]"
   },
   {
     "id": "imp",
@@ -284,40 +308,46 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 24,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Impen pekar på en spelare. Den spelaren dör. Om Impen valde sig själv: Byt ut karaktären för 1 levande undersåte mot en extra Imp-markör. Visa kortet 'Du är', sedan Imp-markören.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
+    "ability": "Varje natt*, välj en spelare: hen dör. Om du dödar dig själv på det här sättet blir en Undersåte Impen."
   },
   {
     "id": "bureaucrat",
-    "name": "Bureaucrat",
+    "name": "Byråkrat",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "firstNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens påminnelse '3 röster' vid den valda spelarens karaktärsmarkör.",
     "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "reminders": ["3 votes"],
+    "otherNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens påminnelse '3 röster' vid den valda spelarens karaktärsmarkör.",
+    "reminders": [
+      "3 röster"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow."
+    "ability": "Varje natt, välj en spelare (inte dig själv): hens röst räknas som 3 röster i morgon."
   },
   {
     "id": "thief",
-    "name": "Thief",
+    "name": "Tjuv",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "firstNightReminder": "Tjuven pekar på en spelare. Lägg Tjuvens påminnelse 'Negativ röst' vid den valda spelarens karaktärsmarkör.",
     "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "reminders": ["Negative vote"],
+    "otherNightReminder": "Tjuven pekar på en spelare. Lägg Tjuvens påminnelse 'Negativ röst' vid den valda spelarens karaktärsmarkör.",
+    "reminders": [
+      "Negativ röst"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow."
+    "ability": "Varje natt, välj en spelare (inte dig själv): hens röst räknas negativt i morgon."
   },
   {
     "id": "gunslinger",
-    "name": "Gunslinger",
+    "name": "Revolverman",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 0,
@@ -326,11 +356,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
+    "ability": "Varje dag, efter att den 1:a omröstningen har räknats, får du välja en spelare som röstade: hen dör."
   },
   {
     "id": "scapegoat",
-    "name": "Scapegoat",
+    "name": "Syndabock",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 0,
@@ -339,11 +369,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If a player of your alignment is executed, you might be executed instead."
+    "ability": "Om en spelare på din sida avrättas kan du bli avrättad i stället."
   },
   {
     "id": "beggar",
-    "name": "Beggar",
+    "name": "Tiggare",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 0,
@@ -352,46 +382,50 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment. You are sober & healthy."
+    "ability": "Du måste använda en röstmarkör för att rösta. Döda spelare kan välja att ge dig sin. I så fall får du veta vilken sida de tillhör. Du är nykter & frisk."
   },
   {
     "id": "grandmother",
-    "name": "Grandmother",
+    "name": "Mormor",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 40,
-    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "firstNightReminder": "Visa den markerade karaktärsmarkören. Peka på den markerade spelaren.",
     "otherNight": 51,
-    "otherNightReminder": "If the Grandmother\u2019s grandchild was killed by the Demon tonight: The Grandmother dies.",
-    "reminders": ["Grandchild"],
+    "otherNightReminder": "Om Mormors barnbarn dödades av Demonen i natt: Mormor dör.",
+    "reminders": [
+      "Barnbarn"
+    ],
     "setup": false,
-    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too."
+    "ability": "Du vet från början vem en god spelare är & vilken karaktär hen har. Om Demonen dödar hen dör du också."
   },
   {
     "id": "sailor",
-    "name": "Sailor",
+    "name": "Sjöman",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 11,
-    "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "firstNightReminder": "Sjömannen pekar på en levande spelare. Antingen Sjömannen eller den valda spelaren är berusad.",
     "otherNight": 4,
-    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
-    "reminders": ["Drunk"],
+    "otherNightReminder": "Den tidigare berusade spelaren är inte längre berusad. Sjömannen pekar på en levande spelare. Antingen Sjömannen eller den valda spelaren är berusad.",
+    "reminders": [
+      "Berusad"
+    ],
     "setup": false,
-    "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die."
+    "ability": "Varje natt, välj en levande spelare: antingen du eller hen är berusad till skymningen. Du kan inte dö."
   },
   {
     "id": "chambermaid",
-    "name": "Chambermaid",
+    "name": "Kammarjungfru",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 51,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, \u2026) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "Kammarjungfrun pekar på två spelare. Visa med fingrarna (0, 1, 2, …) hur många av dem som vaknar i natt för sin förmåga.",
     "otherNight": 70,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, \u2026) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "Kammarjungfrun pekar på två spelare. Visa med fingrarna (0, 1, 2, …) hur många av dem som vaknar i natt för sin förmåga.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability."
+    "ability": "Varje natt, välj 2 levande spelare (inte dig själv): du får veta hur många av dem som vaknade i natt på grund av sin förmåga."
   },
   {
     "id": "exorcist",
@@ -401,66 +435,76 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 21,
-    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
-    "reminders": ["Chosen"],
+    "otherNightReminder": "Exorcisten pekar på en spelare, en annan än föregående natt. Om den spelaren är Demonen: Väck Demonen. Visa Exorcistens markör. Peka på Exorcisten. Demonen agerar inte i natt.",
+    "reminders": [
+      "Vald"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight."
+    "ability": "Varje natt*, välj en spelare (en annan än i går natt): om Demonen väljs får den veta vem du är och vaknar sedan inte i natt."
   },
   {
     "id": "innkeeper",
-    "name": "Innkeeper",
+    "name": "Värdshusvärd",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 9,
-    "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
-    "reminders": ["Protected",
-        "Drunk"],
+    "otherNightReminder": "De tidigare skyddade och berusade spelarna förlorar sina markörer. Värdshusvärden pekar på två spelare. De spelarna är skyddade. En av dem är berusad.",
+    "reminders": [
+      "Skyddad",
+      "Berusad"
+    ],
     "setup": false,
-    "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk."
+    "ability": "Varje natt*, välj 2 spelare: de kan inte dö i natt, men 1 är berusad till skymningen."
   },
   {
     "id": "gambler",
-    "name": "Gambler",
+    "name": "Hasardspelare",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 10,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Hasardspelaren pekar på en spelare och på en karaktär på sitt blad. Om gissningen är fel dör Hasardspelaren.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die."
+    "ability": "Varje natt*, välj en spelare & gissa hens karaktär: om du gissar fel dör du."
   },
   {
     "id": "gossip",
-    "name": "Gossip",
+    "name": "Skvallerbytta",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 38,
-    "otherNightReminder": "If the Gossip\u2019s public statement was true: Choose a player not protected from dying tonight. That player dies.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Om Skvallerbyttans offentliga uttalande var sant: Välj en spelare som inte är skyddad från att dö i natt. Den spelaren dör.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies."
+    "ability": "Varje dag får du göra ett offentligt uttalande. Om det var sant dör en spelare i natt."
   },
   {
     "id": "courtier",
-    "name": "Courtier",
+    "name": "Hovman",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
+    "firstNightReminder": "Hovmannen skakar antingen på huvudet 'nej' eller pekar på en karaktär på bladet. Om Hovmannen använde sin förmåga: Om den karaktären är med i spelet är den spelaren berusad.",
     "otherNight": 8,
-    "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
-    "reminders": ["Drunk 3",
-        "Drunk 2",
-        "Drunk 1",
-        "No ability"],
+    "otherNightReminder": "Minska antalet återstående dagar som den markerade spelaren är berusad. Om Hovmannen ännu inte har använt sin förmåga: Hovmannen skakar antingen på huvudet 'nej' eller pekar på en karaktär på bladet. Om Hovmannen använde sin förmåga: Om den karaktären är med i spelet är den spelaren berusad.",
+    "reminders": [
+      "Berusad 3",
+      "Berusad 2",
+      "Berusad 1",
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days."
+    "ability": "En gång per spel, på natten, välj en karaktär: den är berusad i 3 nätter & 3 dagar."
   },
   {
     "id": "professor",
@@ -470,37 +514,43 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 43,
-    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
-    "reminders": ["Alive",
-        "No ability"],
+    "otherNightReminder": "Om Professorn inte har använt sin förmåga: Professorn skakar antingen på huvudet 'nej' eller pekar på en spelare. Om den spelaren är en Stadsbo lever hen nu igen.",
+    "reminders": [
+      "Levande",
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected."
+    "ability": "En gång per spel, på natten*, välj en död spelare: om hen är en Stadsbo återuppstår hen."
   },
   {
     "id": "minstrel",
-    "name": "Minstrel",
+    "name": "Trubadur",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Everyone drunk"],
+    "reminders": [
+      "Alla berusade"
+    ],
     "setup": false,
-    "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
+    "ability": "När en Undersåte dör genom avrättning är alla andra spelare (utom Resenärer) berusade till skymningen i morgon."
   },
   {
     "id": "tealady",
-    "name": "Tea Lady",
+    "name": "Tedam",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Can not die"],
+    "reminders": [
+      "Kan inte dö"
+    ],
     "setup": false,
-    "ability": "If both your alive neighbours are good, they can't die."
+    "ability": "Om båda dina levande grannar är goda kan de inte dö."
   },
   {
     "id": "pacifist",
@@ -513,119 +563,135 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Executed good players might not die."
+    "ability": "Avrättade goda spelare kanske inte dör."
   },
   {
     "id": "fool",
-    "name": "Fool",
+    "name": "Narr",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "The first time you die, you don't."
+    "ability": "Första gången du dör, dör du inte."
   },
   {
     "id": "tinker",
-    "name": "Tinker",
+    "name": "Kittelflickare",
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 49,
-    "otherNightReminder": "The Tinker might die.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Kittelflickaren kan dö.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "You might die at any time."
+    "ability": "Du kan dö när som helst."
   },
   {
     "id": "moonchild",
-    "name": "Moonchild",
+    "name": "Månbarn",
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 50,
-    "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Om Månbarnet använde sin förmåga på en spelare i dag: Om den spelaren är god dör hen.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die."
+    "ability": "När du får veta att du har dött, välj offentligt 1 levande spelare. Om det var en god spelare dör hen i natt."
   },
   {
     "id": "goon",
-    "name": "Goon",
+    "name": "Torped",
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Drunk"],
+    "reminders": [
+      "Berusad"
+    ],
     "setup": false,
-    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment."
+    "ability": "Varje natt blir den 1:a spelaren som väljer dig med sin förmåga berusad till skymningen. Du byter till deras sida."
   },
   {
     "id": "lunatic",
-    "name": "Lunatic",
+    "name": "Galning",
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 8,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon\u2019s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "Om 7 eller fler spelare: Visa Galningen ett antal godtyckliga 'Undersåtar', lika många spelare som antalet Undersåtar i spelet. Visa 3 godtyckliga karaktärsmarkörer för goda karaktärer. Om markören Galningen fick är en Demon som skulle vakna i natt: Låt Galningen utföra Demonens handlingar. Lägg ut deras 'Attack'-markörer. Väck Demonen. Visa Demonens riktiga karaktärsmarkör. Visa dem Galningens spelare. Om Galningen attackerade spelare: Visa den riktiga demonen varje markerad spelare. Ta bort Galningens 'Attack'-markörer.",
     "otherNight": 20,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
-    "reminders": ["Attack 1",
-        "Attack 2",
-        "Attack 3"],
+    "otherNightReminder": "Låt Galningen utföra Demonens handlingar. Lägg ut deras 'Attack'-markörer. Om Galningen valde spelare: Väck Demonen. Visa 'Attack'-markören och peka sedan på varje markerad spelare. Ta bort Galningens 'Attack'-markörer.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
     "setup": false,
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night."
+    "ability": "Du tror att du är en Demon, men det är du inte. Demonen vet vem du är & vem du väljer på natten."
   },
   {
     "id": "godfather",
-    "name": "Godfather",
+    "name": "Gudfader",
     "edition": "bmr",
     "team": "minion",
     "firstNight": 21,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "Visa var och en av Utbölingsmarkörerna i spelet.",
     "otherNight": 37,
-    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
-    "reminders": ["Died today",
-        "Dead"],
+    "otherNightReminder": "Om en Utböling dog i dag: Gudfadern pekar på en spelare. Den spelaren dör.",
+    "reminders": [
+      "Dog i dag",
+      "Död"
+    ],
     "setup": true,
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [\u22121 or +1 Outsider]"
+    "ability": "Du vet från början vilka Utbölingar som är med i spelet. Om 1 dog i dag, välj en spelare i natt: hen dör. [−1 eller +1 Utböling]"
   },
   {
     "id": "devilsadvocate",
-    "name": "Devil's Advocate",
+    "name": "Djävulens advokat",
     "edition": "bmr",
     "team": "minion",
     "firstNight": 22,
-    "firstNightReminder": "The Devil\u2019s Advocate points to a living player. That player survives execution tomorrow.",
+    "firstNightReminder": "Djävulens advokat pekar på en levande spelare. Den spelaren överlever avrättning i morgon.",
     "otherNight": 13,
-    "otherNightReminder": "The Devil\u2019s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
-    "reminders": ["Survives execution"],
+    "otherNightReminder": "Djävulens advokat pekar på en levande spelare, en annan än föregående natt. Den spelaren överlever avrättning i morgon.",
+    "reminders": [
+      "Överlever avrättning"
+    ],
     "setup": false,
-    "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die."
+    "ability": "Varje natt, välj en levande spelare (en annan än i går natt): om hen avrättas i morgon dör hen inte."
   },
   {
     "id": "assassin",
-    "name": "Assassin",
+    "name": "Lönnmördare",
     "edition": "bmr",
     "team": "minion",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 36,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
-    "reminders": ["Dead",
-        "No ability"],
+    "otherNightReminder": "Om Lönnmördaren ännu inte har använt sin förmåga: Lönnmördaren skakar antingen på huvudet 'nej' eller pekar på en spelare. Den spelaren dör.",
+    "reminders": [
+      "Död",
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not."
+    "ability": "En gång per spel, på natten*, välj en spelare: hen dör, även om hen av någon anledning inte skulle kunna det."
   },
   {
     "id": "mastermind",
-    "name": "Mastermind",
+    "name": "Hjärnan",
     "edition": "bmr",
     "team": "minion",
     "firstNight": 0,
@@ -634,7 +700,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses."
+    "ability": "Om Demonen dör genom avrättning (och spelet tar slut), spela 1 dag till. Om en spelare då avrättas förlorar hens lag."
   },
   {
     "id": "zombuul",
@@ -644,11 +710,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 25,
-    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
-    "reminders": ["Died today",
-        "Dead"],
+    "otherNightReminder": "Om ingen dog under dagen: Zombuulen pekar på en spelare. Den spelaren dör.",
+    "reminders": [
+      "Dog i dag",
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
+    "ability": "Varje natt*, om ingen dog i dag, välj en spelare: hen dör. Första gången du dör lever du, men räknas som död."
   },
   {
     "id": "pukka",
@@ -656,13 +724,15 @@
     "edition": "bmr",
     "team": "demon",
     "firstNight": 28,
-    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "firstNightReminder": "Pukkan pekar på en spelare. Den spelaren är förgiftad.",
     "otherNight": 26,
-    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies. ",
-    "reminders": ["Poisoned",
-        "Dead"],
+    "otherNightReminder": "Pukkan pekar på en spelare. Den spelaren är förgiftad. Den tidigare förgiftade spelaren dör.",
+    "reminders": [
+      "Förgiftad",
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy."
+    "ability": "Varje natt, välj en spelare: hen är förgiftad. Den tidigare förgiftade spelaren dör och blir sedan frisk."
   },
   {
     "id": "shabaloth",
@@ -672,11 +742,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 27,
-    "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
-    "reminders": ["Dead",
-        "Alive"],
+    "otherNightReminder": "En spelare som Shabalothen valde föregående natt kan återuppstå. Shabalothen pekar på två spelare. De spelarna dör.",
+    "reminders": [
+      "Död",
+      "Levande"
+    ],
     "setup": false,
-    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated."
+    "ability": "Varje natt*, välj 2 spelare: de dör. En död spelare som du valde i går natt kan bli uppstött."
   },
   {
     "id": "po",
@@ -686,28 +758,32 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 28,
-    "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
-    "reminders": ["Dead",
-        "3 attacks"],
+    "otherNightReminder": "Om Po valde ingen föregående natt: Po pekar på tre spelare. Annars: Po skakar antingen på huvudet 'nej' eller pekar på en spelare. Valda spelare dör.",
+    "reminders": [
+      "Död",
+      "3 attacker"
+    ],
     "setup": false,
-    "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight."
+    "ability": "Varje natt* får du välja en spelare: hen dör. Om ditt senaste val var ingen, välj 3 spelare i natt."
   },
   {
     "id": "apprentice",
-    "name": "Apprentice",
+    "name": "Lärling",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
+    "firstNightReminder": "Visa Lärlingen kortet 'Du är', sedan en Stadsbo- eller Undersåtemarkör. Byt i Grimoiren ut Lärlingens markör mot den karaktärsmarkören och lägg Lärlingens påminnelse 'Är Lärlingen' vid den karaktärsmarkören.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Is the Apprentice"],
+    "reminders": [
+      "Är Lärlingen"
+    ],
     "setup": false,
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil)."
+    "ability": "Din 1:a natt får du en Stadsboförmåga (om du är god) eller en Undersåteförmåga (om du är ond)."
   },
   {
     "id": "matron",
-    "name": "Matron",
+    "name": "Husmor",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
@@ -716,34 +792,38 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
+    "ability": "Varje dag får du välja upp till 3 par av spelare som byter plats. Spelare får inte lämna sina platser för att prata enskilt."
   },
   {
     "id": "judge",
-    "name": "Judge",
+    "name": "Domare",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail."
+    "ability": "En gång per spel, om en annan spelare nominerade, får du välja att tvinga den aktuella avrättningen att gå igenom eller misslyckas."
   },
   {
     "id": "bishop",
-    "name": "Bishop",
+    "name": "Biskop",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Nominate good",
-        "Nominate evil"],
+    "reminders": [
+      "Nominera god",
+      "Nominera ond"
+    ],
     "setup": false,
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day."
+    "ability": "Bara Berättaren kan nominera. Minst 1 spelare från motsatt sida måste nomineras varje dag."
   },
   {
     "id": "voudon",
@@ -756,100 +836,108 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required."
+    "ability": "Bara du och de döda kan rösta. De behöver ingen röstmarkör för att göra det. Ingen 50 % majoritet krävs."
   },
   {
     "id": "clockmaker",
-    "name": "Clockmaker",
+    "name": "Urmakare",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 41,
-    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
+    "firstNightReminder": "Visa med handen antalet (1, 2, 3 osv.) platser från Demonen till närmaste Undersåte.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion."
+    "ability": "Du vet från början hur många steg det är från Demonen till dess närmaste Undersåte."
   },
   {
     "id": "dreamer",
-    "name": "Dreamer",
+    "name": "Drömmare",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 42,
-    "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "firstNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond karaktärsmarkör; en av dem är korrekt.",
     "otherNight": 56,
-    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "otherNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond karaktärsmarkör; en av dem är korrekt.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct."
+    "ability": "Varje natt, välj en spelare (inte dig själv eller Resenärer): du får veta 1 god och 1 ond karaktär, varav 1 är korrekt."
   },
   {
     "id": "snakecharmer",
-    "name": "Snake Charmer",
+    "name": "Ormtjusare",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "Ormtjusaren pekar på en spelare. Om den spelaren är Demonen: byt karaktär och sida mellan Demonen och Ormtjusaren. Väck båda spelarna för att berätta om deras nya roll och sida. Den nya Ormtjusaren är förgiftad.",
     "otherNight": 11,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
-    "reminders": ["Poisoned"],
+    "otherNightReminder": "Ormtjusaren pekar på en spelare. Om den spelaren är Demonen: byt karaktär och sida mellan Demonen och Ormtjusaren. Väck båda spelarna för att berätta om deras nya roll och sida. Den nya Ormtjusaren är förgiftad.",
+    "reminders": [
+      "Förgiftad"
+    ],
     "setup": false,
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
+    "ability": "Varje natt, välj en levande spelare: en vald Demon byter karaktär & sida med dig & blir sedan förgiftad."
   },
   {
     "id": "mathematician",
-    "name": "Mathematician",
+    "name": "Matematiker",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 52,
-    "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
+    "firstNightReminder": "Visa med handen antalet (0, 1, 2 osv.) spelare vars förmåga inte fungerade på grund av andra förmågor.",
     "otherNight": 71,
-    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
-    "reminders": ["Abnormal"],
+    "otherNightReminder": "Visa med handen antalet (0, 1, 2 osv.) spelare vars förmåga inte fungerade på grund av andra förmågor.",
+    "reminders": [
+      "Onormal"
+    ],
     "setup": false,
-    "ability": "Each night, you learn how many players\u2019 abilities worked abnormally (since dawn) due to another character's ability."
+    "ability": "Varje natt får du veta hur många spelares förmågor som fungerade onormalt (sedan gryningen) på grund av en annan karaktärs förmåga."
   },
   {
     "id": "flowergirl",
-    "name": "Flowergirl",
+    "name": "Blomsterflicka",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 57,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
-    "reminders": ["Demon voted",
-        "Demon not voted"],
+    "otherNightReminder": "Nicka 'ja' eller skaka på huvudet 'nej' för om Demonen röstade i dag. Lägg markören 'Demonen röstade inte' (ta bort 'Demonen röstade', om den finns).",
+    "reminders": [
+      "Demonen röstade",
+      "Demonen röstade inte"
+    ],
     "setup": false,
-    "ability": "Each night*, you learn if a Demon voted today."
+    "ability": "Varje natt* får du veta om en Demon röstade i dag."
   },
   {
     "id": "towncrier",
-    "name": "Town Crier",
+    "name": "Utropare",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 58,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
-    "reminders": ["Minions not nominated",
-        "Minion nominated"],
+    "otherNightReminder": "Nicka 'ja' eller skaka på huvudet 'nej' för om en Undersåte nominerade i dag. Lägg markören 'Ingen undersåte nominerade' (ta bort 'Undersåte nominerade', om den finns).",
+    "reminders": [
+      "Ingen undersåte nominerade",
+      "Undersåte nominerade"
+    ],
     "setup": false,
-    "ability": "Each night*, you learn if a Minion nominated today."
+    "ability": "Varje natt* får du veta om en Undersåte nominerade i dag."
   },
   {
     "id": "oracle",
-    "name": "Oracle",
+    "name": "Orakel",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 59,
-    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "otherNightReminder": "Visa med handen antalet (0, 1, 2 osv.) döda onda spelare.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night*, you learn how many dead players are evil."
+    "ability": "Varje natt* får du veta hur många döda spelare som är onda."
   },
   {
     "id": "savant",
@@ -862,73 +950,81 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false."
+    "ability": "Varje dag får du besöka Berättaren och i enrum få veta 2 saker: 1 är sann & 1 är falsk."
   },
   {
     "id": "seamstress",
-    "name": "Seamstress",
+    "name": "Sömmerska",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 43,
-    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "firstNightReminder": "Sömmerskan skakar antingen på huvudet 'nej' eller pekar på två andra spelare. Om Sömmerskan valde spelare: nicka 'ja' eller skaka på huvudet 'nej' för om de tillhör samma sida.",
     "otherNight": 60,
-    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
-    "reminders": ["No ability"],
+    "otherNightReminder": "Om Sömmerskan ännu inte har använt sin förmåga: Sömmerskan skakar antingen på huvudet 'nej' eller pekar på två andra spelare. Om Sömmerskan valde spelare: nicka 'ja' eller skaka på huvudet 'nej' för om de tillhör samma sida.",
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment."
+    "ability": "En gång per spel, på natten, välj 2 spelare (inte dig själv): du får veta om de tillhör samma sida."
   },
   {
     "id": "philosopher",
-    "name": "Philosopher",
+    "name": "Filosof",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
+    "firstNightReminder": "Filosofen skakar antingen på huvudet 'nej' eller pekar på en god karaktär på sitt blad. Om en karaktär valdes: Byt ut Filosofens markör mot karaktärsmarkören som inte är med i spelet och lägg till påminnelsen 'Är Filosofen'. Om karaktären är med i spelet, lägg berusad-markören vid den spelaren.",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
-    "reminders": ["Drunk",
-        "Is the Philosopher"],
+    "otherNightReminder": "Om Filosofen inte har använt sin förmåga: Filosofen skakar antingen på huvudet 'nej' eller pekar på en god karaktär på sitt blad. Om en karaktär valdes: Byt ut Filosofens markör mot karaktärsmarkören som inte är med i spelet och lägg till påminnelsen 'Är Filosofen'. Om karaktären är med i spelet, lägg berusad-markören vid den spelaren.",
+    "reminders": [
+      "Berusad",
+      "Är Filosofen"
+    ],
     "setup": false,
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk."
+    "ability": "En gång per spel, på natten, välj en god karaktär: du får den förmågan. Om den karaktären är med i spelet är den berusad."
   },
   {
     "id": "artist",
-    "name": "Artist",
+    "name": "Konstnär",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question."
+    "ability": "En gång per spel, under dagen, får du i enrum ställa valfri ja/nej-fråga till Berättaren."
   },
   {
     "id": "juggler",
-    "name": "Juggler",
+    "name": "Jonglör",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 61,
-    "otherNightReminder": "If today was the Juggler\u2019s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
-    "reminders": ["Correct"],
+    "otherNightReminder": "Om i dag var Jonglörens första dag: Visa med handen antalet (0, 1, 2 osv.) 'Rätt'-markörer. Ta bort markörerna.",
+    "reminders": [
+      "Rätt"
+    ],
     "setup": false,
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+    "ability": "Din 1:a dag, gissa offentligt karaktären för upp till 5 spelare. Den natten får du veta hur många du gissade rätt på."
   },
   {
     "id": "sage",
-    "name": "Sage",
+    "name": "Visman",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 42,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "Om Vismannen dödades av en Demon: Peka på två spelare, varav en är den Demonen.",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+    "ability": "Om Demonen dödar dig får du veta att den är 1 av 2 spelare."
   },
   {
     "id": "mutant",
@@ -941,37 +1037,41 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are \u201Cmad\u201D about being an Outsider, you might be executed."
+    "ability": "Om du är ”galen” på att vara en Utböling kan du bli avrättad."
   },
   {
     "id": "sweetheart",
-    "name": "Sweetheart",
+    "name": "Älskling",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 41,
-    "otherNightReminder": "Choose a player that is drunk.",
-    "reminders": ["Drunk"],
+    "otherNightReminder": "Välj en spelare som blir berusad.",
+    "reminders": [
+      "Berusad"
+    ],
     "setup": false,
-    "ability": "When you die, 1 player is drunk from now on."
+    "ability": "När du dör är 1 spelare berusad från och med nu."
   },
   {
     "id": "barber",
-    "name": "Barber",
+    "name": "Barberare",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
-    "reminders": ["Haircuts tonight"],
+    "otherNightReminder": "Om Barberaren dog i dag: Väck Demonen. Visa kortet 'Den här karaktären valde dig', sedan Barberarens markör. Demonen skakar antingen på huvudet 'nej' eller pekar på 2 spelare. Om spelare valdes: Byt deras karaktärsmarkörer. Väck varje spelare. Visa 'Du är', sedan deras nya karaktärsmarkör.",
+    "reminders": [
+      "Klippning i natt"
+    ],
     "setup": false,
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+    "ability": "Om du dog i dag eller i natt får Demonen välja 2 spelare (inte en annan Demon) som byter karaktär."
   },
   {
     "id": "klutz",
-    "name": "Klutz",
+    "name": "Klumpeduns",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
@@ -980,33 +1080,37 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses."
+    "ability": "När du får veta att du har dött, välj offentligt 1 levande spelare: om hen är ond förlorar ditt lag."
   },
   {
     "id": "eviltwin",
-    "name": "Evil Twin",
+    "name": "Ond tvilling",
     "edition": "snv",
     "team": "minion",
     "firstNight": 23,
-    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "firstNightReminder": "Väck den Onda tvillingen och dess tvilling. Bekräfta att de har sett varandra. Peka på den Onda tvillingen. Visa den Onda tvillingens markör för tvillingen. Peka på tvillingen. Visa tvillingens karaktärsmarkör för den Onda tvillingen.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Twin"],
+    "reminders": [
+      "Tvilling"
+    ],
     "setup": false,
-    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
+    "ability": "Du & en spelare från motsatt sida känner till varandra. Om den goda spelaren avrättas vinner ondskan. Det goda kan inte vinna om ni båda lever."
   },
   {
     "id": "witch",
-    "name": "Witch",
+    "name": "Häxa",
     "edition": "snv",
     "team": "minion",
     "firstNight": 24,
-    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "firstNightReminder": "Häxan pekar på en spelare. Om den spelaren nominerar i morgon dör hen omedelbart.",
     "otherNight": 14,
-    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
-    "reminders": ["Cursed"],
+    "otherNightReminder": "Om 4 eller fler spelare lever: Häxan pekar på en spelare. Om den spelaren nominerar i morgon dör hen omedelbart.",
+    "reminders": [
+      "Förbannad"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
+    "ability": "Varje natt, välj en spelare: om hen nominerar i morgon dör hen. Om bara 3 spelare lever förlorar du den här förmågan."
   },
   {
     "id": "cerenovus",
@@ -1014,25 +1118,27 @@
     "edition": "snv",
     "team": "minion",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "Cerenovus pekar på en spelare och sedan på en karaktär på sitt blad. Väck den spelaren. Visa kortet 'Den här karaktären valde dig', sedan Cerenovus-markören. Visa den valda karaktärsmarkören. Om spelaren inte är galen på att vara den karaktären i morgon kan hen bli avrättad.",
     "otherNight": 15,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
-    "reminders": ["Mad"],
+    "otherNightReminder": "Cerenovus pekar på en spelare och sedan på en karaktär på sitt blad. Väck den spelaren. Visa kortet 'Den här karaktären valde dig', sedan Cerenovus-markören. Visa den valda karaktärsmarkören. Om spelaren inte är galen på att vara den karaktären i morgon kan hen bli avrättad.",
+    "reminders": [
+      "Galen"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player & a good character: they are \u201Cmad\u201D they are this character tomorrow, or might be executed."
+    "ability": "Varje natt, välj en spelare & en god karaktär: hen ska i morgon vara ”galen” på att vara den karaktären, annars kan hen bli avrättad."
   },
   {
     "id": "pithag",
-    "name": "Pit-Hag",
+    "name": "Grophäxa",
     "edition": "snv",
     "team": "minion",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 16,
-    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "otherNightReminder": "Grophäxan pekar på en spelare och en karaktär på bladet. Om karaktären inte är med i spelet, väck den spelaren och visa kortet 'Du är' och den aktuella karaktärsmarkören. Om karaktären är med i spelet händer ingenting.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary."
+    "ability": "Varje natt*, välj en spelare & en karaktär som hen blir (om den inte är med i spelet). Om en Demon skapas är dödsfallen i natt godtyckliga."
   },
   {
     "id": "fanggu",
@@ -1042,11 +1148,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 29,
-    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
-    "reminders": ["Dead",
-        "Once"],
+    "otherNightReminder": "Fang Gu pekar på en spelare. Den spelaren dör. Eller, om den spelaren var en Utböling och det inte finns någon annan Fang Gu i spelet: Fang Gu dör i stället för den valda spelaren. Den valda spelaren är nu en ond Fang Gu. Väck den nya Fang Gu. Visa kortet 'Du är', sedan Fang Gu-markören. Visa kortet 'Du är', sedan tummen ner för 'ond'.",
+    "reminders": [
+      "Död",
+      "En gång"
+    ],
     "setup": true,
-    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]"
+    "ability": "Varje natt*, välj en spelare: hen dör. Den 1:a Utbölingen som dödas på detta sätt blir en ond Fang Gu & du dör i stället. [+1 Utböling]"
   },
   {
     "id": "vigormortis",
@@ -1056,12 +1164,14 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
-    "reminders": ["Dead",
-        "Has ability",
-        "Poisoned"],
+    "otherNightReminder": "Vigormortis pekar på en spelare. Den spelaren dör. Om det är en Undersåte behåller hen sin förmåga och en av hens grannar som är Stadsbo blir förgiftad.",
+    "reminders": [
+      "Död",
+      "Har förmåga",
+      "Förgiftad"
+    ],
     "setup": true,
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [\u22121 Outsider]"
+    "ability": "Varje natt*, välj en spelare: hen dör. Undersåtar du dödar behåller sin förmåga & förgiftar 1 granne som är Stadsbo. [−1 Utböling]"
   },
   {
     "id": "nodashii",
@@ -1071,11 +1181,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 30,
-    "otherNightReminder": "The No Dashii points to a player. That player dies.",
-    "reminders": ["Dead",
-        "Poisoned"],
+    "otherNightReminder": "No Dashii pekar på en spelare. Den spelaren dör.",
+    "reminders": [
+      "Död",
+      "Förgiftad"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned."
+    "ability": "Varje natt*, välj en spelare: hen dör. Dina 2 närmaste grannar som är Stadsbor är förgiftade."
   },
   {
     "id": "vortox",
@@ -1085,10 +1197,12 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Vortox pekar på en spelare. Den spelaren dör.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins."
+    "ability": "Varje natt*, välj en spelare: hen dör. Stadsbors förmågor ger falsk information. Om ingen avrättas en dag vinner ondskan."
   },
   {
     "id": "barista",
@@ -1096,30 +1210,34 @@
     "edition": "snv",
     "team": "traveler",
     "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "firstNightReminder": "Välj en spelare, väck hen och berätta vilken Barista-kraft som påverkar hen. Behandla hen därefter (nykter/frisk/sann information eller aktivera förmågan två gånger).",
     "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
-    "reminders": ["Sober & Healthy",
-        "Ability twice"],
+    "otherNightReminder": "Välj en spelare, väck hen och berätta vilken Barista-kraft som påverkar hen. Behandla hen därefter (nykter/frisk/sann information eller aktivera förmågan två gånger).",
+    "reminders": [
+      "Nykter & frisk",
+      "Förmåga två gånger"
+    ],
     "setup": false,
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which."
+    "ability": "Varje natt, till skymningen, 1) blir en spelare nykter, frisk och får sann information, eller 2) fungerar hens förmåga två gånger. Hen får veta vilket."
   },
   {
     "id": "harlot",
-    "name": "Harlot",
+    "name": "Sköka",
     "edition": "snv",
     "team": "traveler",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Skökan pekar på valfri spelare. Låt sedan Skökan somna. Väck den valda spelaren, visa kortet 'Den här karaktären valde dig' och sedan Skökans markör. Spelaren nickar 'ja' eller skakar på huvudet 'nej'. Om hen nickade 'ja', väck Skökan och visa den valda spelarens karaktärsmarkör. Därefter får du bestämma att båda spelarna dör.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die."
+    "ability": "Varje natt*, välj en levande spelare: om hen går med på det får du veta hens karaktär, men ni kan båda dö."
   },
   {
     "id": "butcher",
-    "name": "Butcher",
+    "name": "Slaktare",
     "edition": "snv",
     "team": "traveler",
     "firstNight": 0,
@@ -1128,25 +1246,27 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, after the 1st execution, you may nominate again."
+    "ability": "Varje dag, efter den 1:a avrättningen, får du nominera igen."
   },
   {
     "id": "bonecollector",
-    "name": "Bone Collector",
+    "name": "Bensamlare",
     "edition": "snv",
     "team": "traveler",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
-    "reminders": ["No ability",
-        "Has ability"],
+    "otherNightReminder": "Bensamlaren skakar antingen på huvudet 'nej' eller pekar på valfri död spelare. Om hen pekade på en död spelare, lägg Bensamlarens påminnelse 'Har förmåga' vid den valda spelarens karaktärsmarkör. (Spelaren kan behöva väckas i natt för att använda den.)",
+    "reminders": [
+      "Ingen förmåga",
+      "Har förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk."
+    "ability": "En gång per spel, på natten, välj en död spelare: hen återfår sin förmåga till skymningen."
   },
   {
     "id": "deviant",
-    "name": "Deviant",
+    "name": "Avvikare",
     "edition": "snv",
     "team": "traveler",
     "firstNight": 0,
@@ -1155,47 +1275,53 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you were funny today, you cannot die by exile."
+    "ability": "Om du var rolig i dag kan du inte dö genom landsförvisning."
   },
   {
     "id": "noble",
-    "name": "Noble",
+    "name": "Adelsman",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 44,
-    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "firstNightReminder": "Peka på 3 spelare, inklusive en ond spelare, i valfri ordning.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Seen"],
+    "reminders": [
+      "Sedd"
+    ],
     "setup": false,
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil."
+    "ability": "Du vet från början 3 spelare, varav 1 och endast 1 är ond."
   },
   {
     "id": "bountyhunter",
-    "name": "Bounty Hunter",
+    "name": "Prisjägare",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 46,
-    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "firstNightReminder": "Peka på 1 ond spelare. Väck den Stadsbo som är ond och visa kortet 'Du är' och tummen ner för ond.",
     "otherNight": 64,
-    "otherNightReminder": "If the known evil player has died, point to another evil player. ",
-    "reminders": ["Known"],
+    "otherNightReminder": "Om den kända onda spelaren har dött, peka på en annan ond spelare.",
+    "reminders": [
+      "Känd"
+    ],
     "setup": true,
-    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]"
+    "ability": "Du vet från början vem 1 ond spelare är. Om den spelaren dör får du veta en annan ond spelare i natt. [1 Stadsbo är ond]"
   },
   {
     "id": "pixie",
-    "name": "Pixie",
+    "name": "Älva",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 29,
-    "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
+    "firstNightReminder": "Visa Älvan karaktärsmarkören för 1 Stadsbo som är med i spelet.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Mad",
-        "Has ability"],
+    "reminders": [
+      "Galen",
+      "Har förmåga"
+    ],
     "setup": false,
-    "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die."
+    "ability": "Du vet från början vem 1 Stadsbo i spelet är. Om du var galen på att vara den karaktären får du dess förmåga när den dör."
   },
   {
     "id": "general",
@@ -1203,177 +1329,195 @@
     "edition": "",
     "team": "townsfolk",
     "firstNight": 50,
-    "firstNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
+    "firstNightReminder": "Visa Generalen tummen upp om det goda vinner, tummen ner om det onda vinner eller tummen åt sidan för ingen av dem.",
     "otherNight": 69,
-    "otherNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
+    "otherNightReminder": "Visa Generalen tummen upp om det goda vinner, tummen ner om det onda vinner eller tummen åt sidan för ingen av dem.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither."
+    "ability": "Varje natt får du veta vilken sida Berättaren tror vinner: det goda, det onda eller ingen av dem."
   },
   {
     "id": "preacher",
-    "name": "Preacher",
+    "name": "Predikant",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 14,
-    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "firstNightReminder": "Predikanten väljer en spelare. Om en Undersåte väljs, väck Undersåten och visa kortet 'Den här karaktären valde dig' och sedan Predikantens markör.",
     "otherNight": 6,
-    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
-    "reminders": ["At a sermon"],
+    "otherNightReminder": "Predikanten väljer en spelare. Om en Undersåte väljs, väck Undersåten och visa kortet 'Den här karaktären valde dig' och sedan Predikantens markör.",
+    "reminders": [
+      "I predikan"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability."
+    "ability": "Varje natt, välj en spelare: om en Undersåte väljs får den veta det. Alla valda Undersåtar saknar förmåga."
   },
   {
     "id": "king",
-    "name": "King",
+    "name": "Kung",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 10,
-    "firstNightReminder": "Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.",
+    "firstNightReminder": "Väck Demonen, visa kortet 'Den här karaktären valde dig', visa Kungens markör och peka på Kungen.",
     "otherNight": 63,
-    "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
+    "otherNightReminder": "Om det finns fler döda än levande, visa Kungen karaktärsmarkören för en levande spelare.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
+    "ability": "Varje natt, om de döda är fler än de levande, får du veta 1 levande karaktär. Demonen vet vem du är."
   },
   {
     "id": "balloonist",
-    "name": "Balloonist",
+    "name": "Ballongfarare",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 45,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "firstNightReminder": "Välj en karaktärstyp. Peka på en spelare vars karaktär är av den typen. Lägg Ballongfararens påminnelse 'Sedd' vid den karaktären.",
     "otherNight": 62,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
-    "reminders": ["Seen Townsfolk",
-        "Seen Outsider",
-        "Seen Minion",
-        "Seen Demon",
-        "Seen Traveller"],
+    "otherNightReminder": "Välj en karaktärstyp som ännu inte har en 'Sedd'-påminnelse vid en karaktär av den typen. Peka på en spelare vars karaktär är av den typen, om någon finns. Lägg Ballongfararens påminnelse 'Sedd' vid den karaktären.",
+    "reminders": [
+      "Sedd Stadsbo",
+      "Sedd Utböling",
+      "Sedd Undersåte",
+      "Sedd Demon",
+      "Sedd Resenär"
+    ],
     "setup": true,
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]"
+    "ability": "Varje natt får du veta 1 spelare av varje karaktärstyp, tills det inte finns fler typer kvar. [+1 Utböling]"
   },
   {
     "id": "cultleader",
-    "name": "Cult Leader",
+    "name": "Sektledare",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 48,
-    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "firstNightReminder": "Om Sektledaren bytte sida, visa tummen upp för god eller tummen ner för ond.",
     "otherNight": 66,
-    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "Om Sektledaren bytte sida, visa tummen upp för god eller tummen ner för ond.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins."
+    "ability": "Varje natt byter du till samma sida som en levande granne. Om alla goda spelare väljer att gå med i din sekt vinner ditt lag."
   },
   {
     "id": "lycanthrope",
-    "name": "Lycanthrope",
+    "name": "Lykantrop",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 22,
-    "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Lykantropen pekar på en levande spelare: om hen är god dör hen och ingen annan kan dö i natt.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a living player: if good, they die, but they are the only player that can die tonight."
+    "ability": "Varje natt*, välj en levande spelare: om hen är god dör hen, men hen är den enda spelaren som kan dö i natt."
   },
   {
     "id": "amnesiac",
-    "name": "Amnesiac",
+    "name": "Minneslös",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 32,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Bestäm hela den Minneslösas förmåga. Om förmågan gör att hen vaknar i natt: Väck den Minneslösa och utför förmågan.",
     "otherNight": 47,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-    "reminders": ["?"],
+    "otherNightReminder": "Om den Minneslösas förmåga gör att hen vaknar i natt: Väck den Minneslösa och utför förmågan.",
+    "reminders": [
+      "?"
+    ],
     "setup": false,
-    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
+    "ability": "Du vet inte vad din förmåga är. Varje dag, gissa i enrum vad den är: du får veta hur nära du är."
   },
   {
     "id": "nightwatchman",
-    "name": "Nightwatchman",
+    "name": "Nattvakt",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 47,
-    "firstNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
+    "firstNightReminder": "Nattvakten får peka på en spelare. Väck den spelaren, visa kortet 'Den här karaktären valde dig' och Nattvaktens markör, och peka sedan på Nattvakten.",
     "otherNight": 65,
-    "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
-    "reminders": ["No ability"],
+    "otherNightReminder": "Nattvakten får peka på en spelare. Väck den spelaren, visa kortet 'Den här karaktären valde dig' och Nattvaktens markör, och peka sedan på Nattvakten.",
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night, choose a player: they learn who you are."
+    "ability": "En gång per spel, på natten, välj en spelare: hen får veta vem du är."
   },
   {
     "id": "engineer",
-    "name": "Engineer",
+    "name": "Ingenjör",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 13,
-    "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
+    "firstNightReminder": "Ingenjören skakar på huvudet 'nej', eller pekar på en Demon eller på rätt antal Undersåtar. Om Ingenjören valde karaktärer, byt ut Demonen eller Undersåtarna mot valen, väck sedan berörda spelare och visa kortet 'Du är' och de aktuella karaktärsmarkörerna.",
     "otherNight": 5,
-    "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
-    "reminders": ["No ability"],
+    "otherNightReminder": "Ingenjören skakar på huvudet 'nej', eller pekar på en Demon eller på rätt antal Undersåtar. Om Ingenjören valde karaktärer, byt ut Demonen eller Undersåtarna mot valen, väck sedan berörda spelare och visa kortet 'Du är' och de aktuella karaktärsmarkörerna.",
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, at night, choose which Minions or which Demon is in play."
+    "ability": "En gång per spel, på natten, välj vilka Undersåtar eller vilken Demon som är med i spelet."
   },
   {
     "id": "fisherman",
-    "name": "Fisherman",
+    "name": "Fiskare",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win."
+    "ability": "En gång per spel, under dagen, besök Berättaren för att få ett råd som hjälper dig att vinna."
   },
   {
     "id": "huntsman",
-    "name": "Huntsman",
+    "name": "Jägare",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 30,
-    "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "firstNightReminder": "Jägaren skakar på huvudet 'nej' eller pekar på en spelare. Om hen pekar på Fröken, väck den spelaren, visa kortet 'Du är' och en karaktärsmarkör som inte är med i spelet.",
     "otherNight": 45,
-    "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
-    "reminders": ["No ability"],
+    "otherNightReminder": "Jägaren skakar på huvudet 'nej' eller pekar på en spelare. Om hen pekar på Fröken, väck den spelaren, visa kortet 'Du är' och en karaktärsmarkör som inte är med i spelet.",
+    "reminders": [
+      "Ingen förmåga"
+    ],
     "setup": true,
-    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]"
+    "ability": "En gång per spel, på natten, välj en levande spelare: om Fröken väljs blir hon en Stadsbo som inte är med i spelet. [+Fröken]"
   },
   {
     "id": "alchemist",
-    "name": "Alchemist",
+    "name": "Alkemist",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "Visa Alkemisten markören för en Undersåte som inte är med i spelet.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Is the Alchemist"],
+    "remindersGlobal": [
+      "Är Alkemisten"
+    ],
     "setup": false,
-    "ability": "You have a not-in-play Minion ability."
+    "ability": "Du har förmågan hos en Undersåte som inte är med i spelet."
   },
   {
     "id": "farmer",
-    "name": "Farmer",
+    "name": "Bonde",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 48,
-    "otherNightReminder": "If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",
+    "otherNightReminder": "Om en Bonde dog i natt, välj en annan god spelare och gör hen till Bonde. Väck den spelaren, visa kortet 'Du är' och Bondens karaktärsmarkör.",
     "reminders": [],
     "setup": false,
-    "ability": "If you die at night, an alive good player becomes a Farmer."
+    "ability": "Om du dör på natten blir en levande god spelare en Bonde."
   },
   {
     "id": "magician",
-    "name": "Magician",
+    "name": "Magiker",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 5,
@@ -1382,37 +1526,39 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
+    "ability": "Demonen tror att du är en Undersåte. Undersåtarna tror att du är en Demon."
   },
   {
     "id": "choirboy",
-    "name": "Choirboy",
+    "name": "Korgosse",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 44,
-    "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
+    "otherNightReminder": "Om Kungen dödades av Demonen, väck Korgossen och peka på Demonen.",
     "reminders": [],
     "setup": true,
-    "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]"
+    "ability": "Om Demonen dödar Kungen får du veta vilken spelare som är Demonen. [+Kungen]"
   },
   {
     "id": "poppygrower",
-    "name": "Poppy Grower",
+    "name": "Vallmoodlare",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 4,
-    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "firstNightReminder": "Berätta inte för Demonen/Undersåtarna vilka de andra är.",
     "otherNight": 3,
-    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
-    "reminders": ["Evil wakes"],
+    "otherNightReminder": "Om Vallmoodlaren har dött, visa Undersåtarna/Demonen vilka de andra är.",
+    "reminders": [
+      "Ondskan vaknar"
+    ],
     "setup": false,
-    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
+    "ability": "Undersåtar & Demoner känner inte till varandra. Om du dör får de veta vilka de andra är den natten."
   },
   {
     "id": "atheist",
-    "name": "Atheist",
+    "name": "Ateist",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
@@ -1421,65 +1567,71 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "The Storyteller can break the game rules & if executed, good wins, even if you are dead. [No evil characters]"
+    "ability": "Berättaren får bryta mot spelets regler & om Berättaren avrättas vinner det goda, även om du är död. [Inga onda karaktärer]"
   },
   {
     "id": "cannibal",
-    "name": "Cannibal",
+    "name": "Kannibal",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Poisoned",
-        "Died today"],
+    "reminders": [
+      "Förgiftad",
+      "Dog i dag"
+    ],
     "setup": false,
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution."
+    "ability": "Du har förmågan hos den senast avrättade spelaren som dog. Om hen är ond är du förgiftad tills en god spelare dör genom avrättning."
   },
   {
     "id": "snitch",
-    "name": "Snitch",
+    "name": "Tjallare",
     "edition": "",
     "team": "outsider",
     "firstNight": 7,
-    "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.",
+    "firstNightReminder": "Efter informationen till Undersåtarna, väck varje Undersåte och visa tre karaktärsmarkörer som inte är med i spelet. De kan vara samma eller olika för varje Undersåte, och samma eller olika som de som visades för Demonen.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Minions start knowing 3 not-in-play characters."
+    "ability": "Undersåtar vet från början 3 karaktärer som inte är med i spelet."
   },
   {
     "id": "acrobat",
-    "name": "Acrobat",
+    "name": "Akrobat",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 39,
-    "otherNightReminder": "If a good living neighbour is drunk or poisoned, the Acrobat player dies.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Om en god levande granne är berusad eller förgiftad dör Akrobaten.",
+    "reminders": [
+      "Död"
+    ],
     "setup": false,
-    "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die."
+    "ability": "Varje natt*, om någon av dina goda levande grannar är berusad eller förgiftad dör du."
   },
   {
     "id": "puzzlemaster",
-    "name": "Puzzlemaster",
+    "name": "Gåtmästare",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Drunk",
-        "Guess used"],
+    "reminders": [
+      "Berusad",
+      "Gissning använd"
+    ],
     "setup": false,
-    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
+    "ability": "1 spelare är berusad, även om du dör. Om du gissar (en gång) vem det är får du veta vem Demonen är, men gissar du fel får du falsk information."
   },
   {
     "id": "heretic",
-    "name": "Heretic",
+    "name": "Kättare",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
@@ -1488,20 +1640,22 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead."
+    "ability": "Den som vinner förlorar & den som förlorar vinner, även om du är död."
   },
   {
     "id": "damsel",
-    "name": "Damsel",
+    "name": "Fröken",
     "edition": "",
     "team": "outsider",
     "firstNight": 31,
-    "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
+    "firstNightReminder": "Väck alla Undersåtar, visa kortet 'Den här karaktären valde dig' och Frökens markör.",
     "otherNight": 46,
-    "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
-    "reminders": ["Guess used"],
+    "otherNightReminder": "Om Fröken valts av Jägaren, väck Fröken, visa kortet 'Du är' och en Stadsbomarkör som inte är med i spelet.",
+    "reminders": [
+      "Gissning använd"
+    ],
     "setup": false,
-    "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses."
+    "ability": "Alla Undersåtar vet att du är med i spelet. Om en Undersåte offentligt gissar på dig (en gång) förlorar ditt lag."
   },
   {
     "id": "golem",
@@ -1512,13 +1666,15 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Can not nominate"],
+    "reminders": [
+      "Kan inte nominera"
+    ],
     "setup": false,
-    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die."
+    "ability": "Du får bara nominera en gång per spel. När du gör det, om den nominerade inte är Demonen, dör hen."
   },
   {
     "id": "politician",
-    "name": "Politician",
+    "name": "Politiker",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
@@ -1527,38 +1683,44 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead."
+    "ability": "Om du var den spelare som mest bidrog till att ditt lag förlorade byter du sida & vinner, även om du är död."
   },
   {
     "id": "widow",
-    "name": "Widow",
+    "name": "Änka",
     "edition": "",
     "team": "minion",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "Visa Grimoiren för Änkan så länge hen behöver. Änkan pekar på en spelare. Den spelaren är förgiftad. Väck en god spelare. Visa kortet 'De här karaktärerna är med i spelet', sedan Änkans karaktärsmarkör.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Poisoned"],
-    "remindersGlobal": ["Knows"],
+    "reminders": [
+      "Förgiftad"
+    ],
+    "remindersGlobal": [
+      "Vet"
+    ],
     "setup": false,
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play."
+    "ability": "Din 1:a natt, titta i Grimoiren och välj en spelare: hen är förgiftad. 1 god spelare vet att en Änka är med i spelet."
   },
   {
     "id": "fearmonger",
-    "name": "Fearmonger",
+    "name": "Skräckspridare",
     "edition": "",
     "team": "minion",
     "firstNight": 26,
-    "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "firstNightReminder": "Skräckspridaren pekar på en spelare. Lägg Skräck-markören vid den spelaren och meddela att en ny spelare har valts med Skräckspridarens förmåga.",
     "otherNight": 17,
-    "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
-    "reminders": ["Fear"],
+    "otherNightReminder": "Skräckspridaren pekar på en spelare. Om det är en annan än föregående natt, lägg Skräck-markören vid den spelaren och meddela att en ny spelare har valts med Skräckspridarens förmåga.",
+    "reminders": [
+      "Skräck"
+    ],
     "setup": false,
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player."
+    "ability": "Varje natt, välj en spelare. Om du nominerar & avrättar hen förlorar hens lag. Alla spelare får veta om du väljer en ny spelare."
   },
   {
     "id": "psychopath",
-    "name": "Psychopath",
+    "name": "Psykopat",
     "edition": "",
     "team": "minion",
     "firstNight": 0,
@@ -1567,20 +1729,22 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo."
+    "ability": "Varje dag, före nomineringarna, får du offentligt välja en spelare: hen dör. Om du avrättas dör du bara om du förlorar i sten-sax-påse."
   },
   {
     "id": "goblin",
-    "name": "Goblin",
+    "name": "Vätte",
     "edition": "",
     "team": "minion",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Claimed"],
+    "reminders": [
+      "Påstått"
+    ],
     "setup": false,
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
+    "ability": "Om du offentligt påstår att du är Vätten när du blir nominerad & avrättas den dagen vinner ditt lag."
   },
   {
     "id": "mephit",
@@ -1588,13 +1752,15 @@
     "edition": "",
     "team": "minion",
     "firstNight": 27,
-    "firstNightReminder": "Show the Mephit their secret word.",
+    "firstNightReminder": "Visa Mephiten dess hemliga ord.",
     "otherNight": 18,
-    "otherNightReminder": "Wake the 1st good player that said the Mephit's secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": ["Turns evil",
-        "No ability"],
+    "otherNightReminder": "Väck den 1:a goda spelaren som sa Mephitens hemliga ord och visa kortet 'Du är' och tummen ner för ond.",
+    "reminders": [
+      "Blir ond",
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
+    "ability": "Du vet från början ett hemligt ord. Den 1:a goda spelaren som säger ordet blir ond den natten."
   },
   {
     "id": "mezepheles",
@@ -1602,27 +1768,31 @@
     "edition": "",
     "team": "minion",
     "firstNight": 27,
-    "firstNightReminder": "Show the Mezepheles their secret word.",
+    "firstNightReminder": "Visa Mezepheles dess hemliga ord.",
     "otherNight": 18,
-    "otherNightReminder": "Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": ["Turns evil",
-        "No ability"],
+    "otherNightReminder": "Väck den 1:a goda spelaren som sa Mezepheles hemliga ord och visa kortet 'Du är' och tummen ner för ond.",
+    "reminders": [
+      "Blir ond",
+      "Ingen förmåga"
+    ],
     "setup": false,
-    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
+    "ability": "Du vet från början ett hemligt ord. Den 1:a goda spelaren som säger ordet blir ond den natten."
   },
   {
     "id": "marionette",
-    "name": "Marionette",
+    "name": "Marionett",
     "edition": "",
     "team": "minion",
     "firstNight": 12,
-    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "firstNightReminder": "Välj en av de goda spelarna bredvid Demonen och lägg påminnelsen 'Är Marionetten'. Väck Demonen och visa Marionetten.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Is the Marionette"],
+    "remindersGlobal": [
+      "Är Marionetten"
+    ],
     "setup": true,
-    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]"
+    "ability": "Du tror att du är en god karaktär, men det är du inte. Demonen vet vem du är. [Du sitter bredvid Demonen]"
   },
   {
     "id": "boomdandy",
@@ -1635,7 +1805,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies."
+    "ability": "Om du avrättas dör alla utom 3 spelare. 1 minut senare dör den spelare som flest spelare pekar på."
   },
   {
     "id": "lilmonsta",
@@ -1643,14 +1813,16 @@
     "edition": "",
     "team": "demon",
     "firstNight": 15,
-    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "firstNightReminder": "Väck alla Undersåtar samtidigt och låt dem rösta genom att peka på den de vill ska vara barnvakt åt Lil' Monsta.",
     "otherNight": 35,
-    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "otherNightReminder": "Väck alla Undersåtar samtidigt och låt dem rösta genom att peka på den de vill ska vara barnvakt åt Lil' Monsta. Välj en spelare, den spelaren dör.",
     "reminders": [],
-    "remindersGlobal": ["Is the Demon",
-        "Dead"],
+    "remindersGlobal": [
+      "Är Demonen",
+      "Död"
+    ],
     "setup": true,
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]"
+    "ability": "Varje natt väljer Undersåtarna vem som är barnvakt åt Lil' Monstas markör & ”är Demonen”. En spelare dör varje natt*. [+1 Undersåte]"
   },
   {
     "id": "lleech",
@@ -1658,13 +1830,15 @@
     "edition": "",
     "team": "demon",
     "firstNight": 16,
-    "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",
+    "firstNightReminder": "Lleechen pekar på en spelare. Lägg påminnelsen 'Förgiftad'.",
     "otherNight": 34,
-    "otherNightReminder": "The Lleech points to a player. That player dies.",
-    "reminders": ["Dead",
-        "Poisoned"],
+    "otherNightReminder": "Lleechen pekar på en spelare. Den spelaren dör.",
+    "reminders": [
+      "Död",
+      "Förgiftad"
+    ],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die."
+    "ability": "Varje natt*, välj en spelare: hen dör. Du börjar med att välja en levande spelare: hen är förgiftad – du dör om & endast om hen dör."
   },
   {
     "id": "alhadikhia",
@@ -1674,12 +1848,16 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 33,
-    "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
-    "reminders": ["1", "2", "3",
-        "Chose death",
-        "Chose life"],
+    "otherNightReminder": "Al-Hadikhia väljer 3 spelare. Meddela den första spelaren, väck hen för att nicka 'ja' för att leva eller skaka på huvudet 'nej' för att dö, döda eller återuppväck därefter, låt hen somna och meddela nästa spelare. Om alla 3 lever efter detta dör alla 3.",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "Valde döden",
+      "Valde livet"
+    ],
     "setup": false,
-    "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
+    "ability": "Varje natt*, välj 3 spelare (alla spelare får veta vilka): var och en väljer i tysthet att leva eller dö, men om alla lever dör alla."
   },
   {
     "id": "legion",
@@ -1689,33 +1867,37 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 23,
-    "otherNightReminder": "Choose a player, that player dies.",
-    "reminders": ["Dead",
-        "About to die"],
+    "otherNightReminder": "Välj en spelare, den spelaren dör.",
+    "reminders": [
+      "Död",
+      "Ska snart dö"
+    ],
     "setup": true,
-    "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]"
+    "ability": "Varje natt* kan en spelare dö. Avrättningar misslyckas om bara onda röstade. Du räknas även som en Undersåte. [De flesta spelare är Legion]"
   },
   {
     "id": "leviathan",
-    "name": "Leviathan",
+    "name": "Leviatan",
     "edition": "",
     "team": "demon",
     "firstNight": 54,
-    "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
+    "firstNightReminder": "Lägg Leviatanens markör 'Dag 1'. Meddela: 'Leviatanen är med i spelet; det här är dag 1.'",
     "otherNight": 73,
-    "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
-    "reminders": ["Day 1",
-        "Day 2",
-        "Day 3",
-        "Day 4",
-        "Day 5",
-        "Good player executed"],
+    "otherNightReminder": "Byt Leviatanens dagpåminnelse till nästa dag.",
+    "reminders": [
+      "Dag 1",
+      "Dag 2",
+      "Dag 3",
+      "Dag 4",
+      "Dag 5",
+      "God spelare avrättad"
+    ],
     "setup": false,
-    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins."
+    "ability": "Om mer än 1 god spelare avrättas vinner du. Alla spelare vet att du är med i spelet. Efter dag 5 vinner ondskan."
   },
   {
     "id": "riot",
-    "name": "Riot",
+    "name": "Upplopp",
     "edition": "",
     "team": "demon",
     "firstNight": 0,
@@ -1724,7 +1906,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]"
+    "ability": "Nominerade dör, men får nominera igen omedelbart (dag 3 måste de). Efter dag 3 vinner ondskan. [Alla Undersåtar är Upplopp]"
   },
   {
     "id": "gangster",
@@ -1737,7 +1919,6 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees."
+    "ability": "En gång per dag får du välja att döda en levande granne, om din andra levande granne går med på det."
   }
 ]
-

@@ -8,11 +8,11 @@
       @click="clearVoteHistory"
       icon="trash-alt"
       class="clear"
-      title="Clear vote history"
+      title="Rensa röstningshistorik"
       v-if="session.isSpectator"
     />
 
-    <h3>Vote history</h3>
+    <h3>Röstningshistorik</h3>
 
     <template v-if="!session.isSpectator">
       <div class="options">
@@ -23,26 +23,26 @@
               session.isVoteHistoryAllowed ? 'check-square' : 'square'
             ]"
           />
-          Accessible to players
+          Tillgänglig för spelare
         </div>
         <div class="option" @click="clearVoteHistory">
           <font-awesome-icon icon="trash-alt" />
-          Clear for everyone
+          Rensa för alla
         </div>
       </div>
     </template>
     <table>
       <thead>
         <tr>
-          <td>Time</td>
-          <td>Nominator</td>
-          <td>Nominee</td>
-          <td>Type</td>
-          <td>Votes</td>
-          <td>Majority</td>
+          <td>Tid</td>
+          <td>Nominerare</td>
+          <td>Nominerad</td>
+          <td>Typ</td>
+          <td>Röster</td>
+          <td>Majoritet</td>
           <td>
             <font-awesome-icon icon="user-friends" />
-            Voters
+            Röstande
           </td>
         </tr>
       </thead>

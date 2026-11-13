@@ -5,19 +5,22 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Doomsayer",
+    "name": "Domedagsprofet",
     "team": "fabled",
-    "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
+    "ability": "Om 4 eller fler spelare lever får varje levande spelare offentligt välja (en gång per spel) att en spelare på deras egen sida dör."
   },
   {
     "id": "angel",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Protect", "Something Bad"],
+    "reminders": [
+      "Skydda",
+      "Något ont"
+    ],
     "setup": false,
-    "name": "Angel",
+    "name": "Ängel",
     "team": "fabled",
-    "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
+    "ability": "Något ont kan drabba den som bär störst ansvar för att en ny spelare dör."
   },
   {
     "id": "buddhist",
@@ -27,27 +30,31 @@
     "setup": false,
     "name": "Buddhist",
     "team": "fabled",
-    "ability": "For the first 2 minutes of each day, veteran players may not talk."
+    "ability": "Under de första 2 minuterna av varje dag får erfarna spelare inte prata."
   },
   {
     "id": "hellslibrarian",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Something Bad"],
+    "reminders": [
+      "Något ont"
+    ],
     "setup": false,
-    "name": "Hell's Librarian",
+    "name": "Helvetets bibliotekarie",
     "team": "fabled",
-    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
+    "ability": "Något ont kan drabba den som pratar när Berättaren har bett om tystnad."
   },
   {
     "id": "revolutionary",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Used"],
+    "reminders": [
+      "Använd"
+    ],
     "setup": false,
-    "name": "Revolutionary",
+    "name": "Revolutionär",
     "team": "fabled",
-    "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely."
+    "ability": "2 grannar är kända för att tillhöra samma sida. En gång per spel räknas en av dem felaktigt."
   },
   {
     "id": "fiddler",
@@ -55,41 +62,48 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Fiddler",
+    "name": "Fiolspelare",
     "team": "fabled",
-    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
+    "ability": "En gång per spel väljer Demonen i hemlighet en spelare från motsatt sida: alla spelare väljer vilken av dessa 2 spelare som vinner."
   },
   {
     "id": "toymaker",
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "If it is a night when a Demon attack could end the game, and the Demon is marked “Final night: No Attack,” then the Demon does not act tonight. (Do not wake them.)",
-    "reminders": ["Final Night: No Attack"],
+    "otherNightReminder": "Om det är en natt då en attack från Demonen kan avgöra spelet och Demonen är markerad ”Sista natten: Ingen attack” agerar inte Demonen i natt. (Väck den inte.)",
+    "reminders": [
+      "Sista natten: Ingen attack"
+    ],
     "setup": false,
-    "name": "Toymaker",
+    "name": "Leksaksmakare",
     "team": "fabled",
-    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    "ability": "Demonen får välja att inte attackera & måste göra det minst en gång per spel. Onda spelare får vanlig startinformation."
   },
   {
     "id": "fibbin",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Used"],
+    "reminders": [
+      "Använd"
+    ],
     "setup": false,
     "name": "Fibbin",
     "team": "fabled",
-    "ability": "Once per game, 1 good player might get false information."
+    "ability": "En gång per spel kan 1 god spelare få falsk information."
   },
   {
     "id": "duchess",
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "Wake each player marked “Visitor” or “False Info” one at a time. Show them the Duchess token, then fingers (1, 2, 3) equaling the number of evil players marked “Visitor” or, if you are waking the player marked “False Info,” show them any number of fingers except the number of evil players marked “Visitor.”",
-    "reminders": ["Visitor", "False Info"],
+    "otherNightReminder": "Väck varje spelare markerad ”Besökare” eller ”Falsk info” en i taget. Visa Hertiginnans markör och sedan med fingrarna (1, 2, 3) antalet onda spelare markerade ”Besökare”, eller, om du väcker spelaren markerad ”Falsk info”, valfritt antal fingrar utom antalet onda spelare markerade ”Besökare”.",
+    "reminders": [
+      "Besökare",
+      "Falsk info"
+    ],
     "setup": false,
-    "name": "Duchess",
+    "name": "Hertiginna",
     "team": "fabled",
-    "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
+    "ability": "Varje dag får 3 spelare välja att besöka dig. På natten* får varje besökare veta hur många besökare som är onda, men 1 får falsk information."
   },
   {
     "id": "sentinel",
@@ -97,19 +111,21 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "name": "Sentinel",
+    "name": "Väktare",
     "team": "fabled",
-    "ability": "There might be 1 extra or 1 fewer Outsider in play."
+    "ability": "Det kan finnas 1 Utböling extra eller 1 färre i spelet."
   },
   {
     "id": "spiritofivory",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["No extra evil"],
+    "reminders": [
+      "Ingen extra ond"
+    ],
     "setup": false,
-    "name": "Spirit of Ivory",
+    "name": "Elfenbensanden",
     "team": "fabled",
-    "ability": "There can't be more than 1 extra evil player."
+    "ability": "Det kan inte finnas mer än 1 extra ond spelare."
   },
   {
     "id": "djinn",
@@ -120,17 +136,19 @@
     "setup": false,
     "name": "Djinn",
     "team": "fabled",
-    "ability": "Use the Djinn's special rule. All players know what it is."
+    "ability": "Använd Djinnens specialregel. Alla spelare vet vad den är."
   },
   {
     "id": "stormcatcher",
     "firstNight": 1,
-    "firstNightReminder": "Mark a good player as \"Safe\". Wake each evil player and show them the marked player.",
+    "firstNightReminder": "Markera en god spelare som ”Säker”. Väck varje ond spelare och visa den markerade spelaren.",
     "otherNightReminder": "",
-    "reminders": ["Safe"],
+    "reminders": [
+      "Säker"
+    ],
     "setup": false,
-    "name": "Storm Catcher",
+    "name": "Stormfångare",
     "team": "fabled",
-    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
+    "ability": "Nämn en god karaktär. Om den är med i spelet kan den bara dö genom avrättning, men onda spelare får veta vilken spelare det är."
   }
 ]

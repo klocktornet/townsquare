@@ -70,7 +70,12 @@ export default {
     return {};
   },
   filters: {
-    nameToFontSize: name => (name && name.length > 10 ? "90%" : "110%")
+    nameToFontSize: name =>
+      name && name.length > 16
+        ? "75%"
+        : name && name.length > 10
+        ? "90%"
+        : "110%"
   },
   methods: {
     setRole() {
