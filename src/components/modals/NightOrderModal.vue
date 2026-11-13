@@ -8,16 +8,16 @@
       @click="toggleModal('reference')"
       icon="address-card"
       class="toggle"
-      title="Show Character Reference"
+      title="Visa karaktärsreferens"
     />
     <h3>
-      Night Order
+      Nattordning
       <font-awesome-icon icon="cloud-moon" />
-      {{ edition.name || "Custom Script" }}
+      {{ edition.name || "Eget skript" }}
     </h3>
     <div class="night">
       <ul class="first">
-        <li class="headline">First Night</li>
+        <li class="headline">Första natten</li>
         <li
           v-for="role in rolesFirstNight"
           :key="role.name"
@@ -56,7 +56,7 @@
         </li>
       </ul>
       <ul class="other">
-        <li class="headline">Other Nights</li>
+        <li class="headline">Övriga nätter</li>
         <li
           v-for="role in rolesOtherNight"
           :key="role.name"
@@ -114,24 +114,24 @@ export default {
         rolesFirstNight.push(
           {
             id: "evil",
-            name: "Minion info",
+            name: "Info till undersåtar",
             firstNight: 5,
             team: "minion",
             players: this.players.filter(p => p.role.team === "minion"),
             firstNightReminder:
-              "• If more than one Minion, they all make eye contact with each other. " +
-              "• Show the “This is the Demon” card. Point to the Demon."
+              "• Om det finns mer än en undersåte får de alla ögonkontakt med varandra. " +
+              "• Visa kortet ”Det här är demonen”. Peka på demonen."
           },
           {
             id: "evil",
-            name: "Demon info & bluffs",
+            name: "Info & bluffar till demonen",
             firstNight: 8,
             team: "demon",
             players: this.players.filter(p => p.role.team === "demon"),
             firstNightReminder:
-              "• Show the “These are your minions” card. Point to each Minion. " +
-              "• Show the “These characters are not in play” card. Show 3 character tokens of good " +
-              "characters not in play."
+              "• Visa kortet ”Det här är dina undersåtar”. Peka på varje undersåte. " +
+              "• Visa kortet ”De här karaktärerna är inte med i spelet”. Visa 3 karaktärsmarkörer för goda " +
+              "karaktärer som inte är med i spelet."
           }
         );
       }

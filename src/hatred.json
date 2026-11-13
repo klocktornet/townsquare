@@ -4,7 +4,7 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes first."
+        "reason": "Kammarjungfrun får veta om Matematikern vaknar i natt eller inte, trots att Kammarjungfrun vaknar först."
       }
     ]
   },
@@ -13,7 +13,7 @@
     "hatred": [
       {
         "id": "Cannibal",
-        "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this."
+        "reason": "Om Kannibalen får Betjäntens förmåga får Kannibalen veta det."
       }
     ]
   },
@@ -22,7 +22,7 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
+        "reason": "Matematikern får veta om Galningen attackerar en annan spelare (eller andra spelare) än den riktiga Demonen attackerade."
       }
     ]
   },
@@ -31,15 +31,15 @@
     "hatred": [
       {
         "id": "Heretic",
-        "reason": "A Pit-Hag can not create a Heretic. "
+        "reason": "En Grophäxa kan inte skapa en Kättare."
       },
       {
         "id": "Damsel",
-        "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is."
+        "reason": "Om en Grophäxa skapar en Fröken väljer Berättaren vilken spelare det blir."
       },
       {
         "id": "Politician",
-        "reason": "A Pit-hag can not create an evil Politician."
+        "reason": "En Grophäxa kan inte skapa en ond Politiker."
       }
     ]
   },
@@ -48,7 +48,7 @@
     "hatred": [
       {
         "id": "Goblin",
-        "reason": "The Cerenovus may choose to make a player mad that they are the Goblin."
+        "reason": "Cerenovus får välja att göra en spelare galen på att vara Vätten."
       }
     ]
   },
@@ -57,31 +57,31 @@
     "hatred": [
       {
         "id": "Soldier",
-        "reason": "If Leviathan nominates and executes the Soldier, the Soldier does not die."
+        "reason": "Om Leviatanen nominerar och avrättar Soldaten dör inte Soldaten."
       },
       {
         "id": "Monk",
-        "reason": "If Leviathan nominates and executes the player the Monk chose, that player does not die."
+        "reason": "Om Leviatanen nominerar och avrättar spelaren som Munken valde dör inte den spelaren."
       },
       {
         "id": "Innkeeper",
-        "reason": "If Leviathan nominates and executes a player the Innkeeper chose, that player does not die."
+        "reason": "Om Leviatanen nominerar och avrättar en spelare som Värdshusvärden valde dör inte den spelaren."
       },
       {
         "id": "Ravenkeeper",
-        "reason": "If Leviathan is in play & the Ravenkeeper dies by execution, they wake that night to use their ability."
+        "reason": "Om Leviatanen är med i spelet & Korpvaktaren dör genom avrättning vaknar Korpvaktaren den natten för att använda sin förmåga."
       },
       {
         "id": "Sage",
-        "reason": "If Leviathan is in play & the Sage dies by execution, they wake that night to use their ability."
+        "reason": "Om Leviatanen är med i spelet & Vismannen dör genom avrättning vaknar Vismannen den natten för att använda sin förmåga."
       },
       {
         "id": "Farmer",
-        "reason": "If Leviathan is in play & a Farmer dies by execution, a good player becomes a Farmer that night."
+        "reason": "Om Leviatanen är med i spelet & en Bonde dör genom avrättning blir en god spelare Bonde den natten."
       },
       {
         "id": "Mayor",
-        "reason": "If Leviathan is in play & no execution occurs on day 5, good wins."
+        "reason": "Om Leviatanen är med i spelet & ingen avrättning sker dag 5 vinner det goda."
       }
     ]
   },
@@ -90,11 +90,11 @@
     "hatred": [
       {
         "id": "Scarlet Woman",
-        "reason": "If there are two living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
+        "reason": "Om det finns två levande Al-Hadikhia blir Scharlakanskvinnans Al-Hadikhia Scharlakanskvinna igen."
       },
       {
         "id": "Mastermind",
-        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet. Onda spelare vet från början vilken spelare och karaktär det är."
       }
     ]
   },
@@ -103,15 +103,15 @@
     "hatred": [
       {
         "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to take the Lil' Monsta token."
+        "reason": "Om Vallmoodlaren är med i spelet vaknar inte Undersåtarna tillsammans. De väcks en och en, tills en av dem väljer att ta Lil' Monstas markör."
       },
       {
         "id": "Magician",
-        "reason": "Only 1 jinxed character can be in play. "
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       },
       {
         "id": "Scarlet Woman",
-        "reason": "If there are 5 or more players alive and the player holding the Lil' Monsta token dies, the Scarlet Woman is given the Lil' Monsta token tonight."
+        "reason": "Om 5 eller fler spelare lever och spelaren som har Lil' Monstas markör dör får Scharlakanskvinnan Lil' Monstas markör i natt."
       }
     ]
   },
@@ -120,7 +120,7 @@
     "hatred": [
       {
         "id": "Gambler",
-        "reason": "If the Lycanthrope is alive and the Gambler kills themself at night, no other players can die tonight."
+        "reason": "Om Lykantropen lever och Hasardspelaren dödar sig själv på natten kan inga andra spelare dö i natt."
       }
     ]
   },
@@ -129,11 +129,11 @@
     "hatred": [
       {
         "id": "Engineer",
-        "reason": "Legion and the Engineer can not both be in play at the start of the game. If the Engineer creates Legion, most players (including all evil players) become evil Legion."
+        "reason": "Legion och Ingenjören kan inte båda vara med i spelet från början. Om Ingenjören skapar Legion blir de flesta spelare (inklusive alla onda spelare) ond Legion."
       },
       {
         "id": "Preacher",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       }
     ]
   },
@@ -142,7 +142,7 @@
     "hatred": [
       {
         "id": "Scarlet Woman",
-        "reason": "If the Fang Gu chooses an Outsider and dies, the Scarlet Woman does not become the Fang Gu."
+        "reason": "Om Fang Gu väljer en Utböling och dör blir inte Scharlakanskvinnan Fang Gu."
       }
     ]
   },
@@ -151,23 +151,23 @@
     "hatred": [
       {
         "id": "Magician",
-        "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."
+        "reason": "När Spionen ser Grimoiren tas Demonens och Magikerns karaktärsmarkörer bort."
       },
       {
         "id": "Alchemist",
-        "reason": "The Alchemist can not have the Spy ability."
+        "reason": "Alkemisten kan inte ha Spionens förmåga."
       },
       {
         "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Spy does not see the Grimoire until the Poppy Grower dies."
+        "reason": "Om Vallmoodlaren är med i spelet ser Spionen inte Grimoiren förrän Vallmoodlaren dör."
       },
       {
         "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play. "
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       },
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       }
     ]
   },
@@ -176,23 +176,23 @@
     "hatred": [
       {
         "id": "Magician",
-        "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed."
+        "reason": "När Änkan ser Grimoiren tas Demonens och Magikerns karaktärsmarkörer bort."
       },
       {
         "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Widow does not see the Grimoire until the Poppy Grower dies."
+        "reason": "Om Vallmoodlaren är med i spelet ser Änkan inte Grimoiren förrän Vallmoodlaren dör."
       },
       {
         "id": "Alchemist",
-        "reason": "The Alchemist can not have the Widow ability."
+        "reason": "Alkemisten kan inte ha Änkans förmåga."
       },
       {
         "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       },
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       }
     ]
   },
@@ -201,7 +201,7 @@
     "hatred": [
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       }
     ]
   },
@@ -210,7 +210,7 @@
     "hatred": [
       {
         "id": "Heretic",
-        "reason": "The Baron might only add 1 Outsider, not 2."
+        "reason": "Baronen kanske bara lägger till 1 Utböling, inte 2."
       }
     ]
   },
@@ -219,27 +219,27 @@
     "hatred": [
       {
         "id": "Lil' Monsta",
-        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
+        "reason": "Marionetten sitter bredvid en Undersåte, inte Demonen. Marionetten väcks inte för att välja vem som tar Lil' Monstas markör."
       },
       {
         "id": "Poppy Grower",
-        "reason": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
+        "reason": "När Vallmoodlaren dör får Demonen veta vem Marionetten är, men Marionetten får inte veta något."
       },
       {
         "id": "Snitch",
-        "reason": "The Marionette does not learn 3 not in-play characters. The Demon learns an extra 3 instead."
+        "reason": "Marionetten får inte veta 3 karaktärer som inte är med i spelet. Demonen får i stället veta 3 extra."
       },
       {
         "id": "Balloonist",
-        "reason": "If the Marionette thinks that they are the Balloonist, +1 Outsider was added."
+        "reason": "Om Marionetten tror att den är Ballongfararen har +1 Utböling lagts till."
       },
       {
         "id": "Damsel",
-        "reason": "The Marionette does not learn that a Damsel is in play."
+        "reason": "Marionetten får inte veta att en Fröken är med i spelet."
       },
       {
         "id": "Huntsman",
-        "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added."
+        "reason": "Om Marionetten tror att den är Jägaren har Fröken lagts till."
       }
     ]
   },
@@ -248,111 +248,111 @@
     "hatred": [
       {
         "id": "Engineer",
-        "reason": "Riot and the Engineer can not both be in play at the start of the game. \nIf the Engineer creates Riot, the evil players become Riot."
+        "reason": "Upplopp och Ingenjören kan inte båda vara med i spelet från början.\nOm Ingenjören skapar Upplopp blir de onda spelarna Upplopp."
       },
       {
         "id": "Golem",
-        "reason": "If The Golem nominates Riot, the Riot player does not die."
+        "reason": "Om Golemen nominerar Upplopp dör inte Upploppsspelaren."
       },
       {
         "id": "Snitch",
-        "reason": "If the Snitch is in play, each Riot player gets an extra 3 bluffs."
+        "reason": "Om Tjallaren är med i spelet får varje Upploppsspelare 3 extra bluffar."
       },
       {
         "id": "Saint",
-        "reason": "If a good player nominates and kills the Saint, the Saint's team loses."
+        "reason": "Om en god spelare nominerar och dödar Helgonet förlorar Helgonets lag."
       },
       {
         "id": "Butler",
-        "reason": "The Butler can not nominate their master."
+        "reason": "Betjänten kan inte nominera sin husbonde."
       },
       {
         "id": "Pit-Hag",
-        "reason": "If the Pit-Hag creates Riot, all evil players become Riot. \nIf the Pit-Hag creates Riot after day 3, the game continues for one more day."
+        "reason": "Om Grophäxan skapar Upplopp blir alla onda spelare Upplopp.\nOm Grophäxan skapar Upplopp efter dag 3 fortsätter spelet en dag till."
       },
       {
         "id": "Mayor",
-        "reason": "If the 3rd day begins with just three players alive, the players may choose (as a group) not to nominate at all. If so (and a Mayor is alive) then the Mayor's team wins."
+        "reason": "Om dag 3 börjar med bara tre levande spelare får spelarna (som grupp) välja att inte nominera alls. Om de gör det (och en Borgmästare lever) vinner Borgmästarens lag."
       },
       {
         "id": "Monk",
-        "reason": "If a Riot player nominates and kills the Monk-protected-player, the Monk-protected-player does not die."
+        "reason": "Om en Upploppsspelare nominerar och dödar spelaren som Munken skyddar dör inte den spelaren."
       },
       {
         "id": "Farmer",
-        "reason": "If a Riot player nominates and kills a Farmer, the Farmer uses their ability tonight."
+        "reason": "Om en Upploppsspelare nominerar och dödar en Bonde använder Bonden sin förmåga i natt."
       },
       {
         "id": "Innkeeper",
-        "reason": "If a Riot player nominates an Innkeeper-protected-player, the Innkeeper-protected-player does not die."
+        "reason": "Om en Upploppsspelare nominerar en spelare som Värdshusvärden skyddar dör inte den spelaren."
       },
       {
         "id": "Sage",
-        "reason": "If a Riot player nominates and kills a Sage, the Sage uses their ability tonight."
+        "reason": "Om en Upploppsspelare nominerar och dödar en Visman använder Vismannen sin förmåga i natt."
       },
       {
         "id": "Ravenkeeper",
-        "reason": "If a Riot player nominates and kills the Ravenkeeper, the Ravenkeeper uses their ability tonight."
+        "reason": "Om en Upploppsspelare nominerar och dödar Korpvaktaren använder Korpvaktaren sin förmåga i natt."
       },
       {
         "id": "Soldier",
-        "reason": "If a Riot player nominates the Soldier, the Soldier does not die."
+        "reason": "Om en Upploppsspelare nominerar Soldaten dör inte Soldaten."
       },
       {
         "id": "Grandmother",
-        "reason": "If a Riot player nominates and kills the Grandchild, the Grandmother dies too."
+        "reason": "Om en Upploppsspelare nominerar och dödar barnbarnet dör Mormor också."
       },
       {
         "id": "King",
-        "reason": "If a Riot player nominates and kills the King and the Choirboy is alive, the Choirboy uses their ability tonight."
+        "reason": "Om en Upploppsspelare nominerar och dödar Kungen och Korgossen lever använder Korgossen sin förmåga i natt."
       },
       {
         "id": "Exorcist",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       },
       {
         "id": "Minstrel",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       },
       {
         "id": "Flowergirl",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Bara 1 av de förhäxade karaktärerna kan vara med i spelet."
       },
       {
         "id": "Undertaker",
-        "reason": "Players that die by nomination register as being executed to the Undertaker."
+        "reason": "Spelare som dör genom nominering räknas som avrättade för Dödgrävaren."
       },
       {
         "id": "Cannibal",
-        "reason": "Players that die by nomination register as being executed to the Cannibal."
+        "reason": "Spelare som dör genom nominering räknas som avrättade för Kannibalen."
       },
       {
         "id": "Pacifist",
-        "reason": "Players that die by nomination register as being executed to the Pacifist."
+        "reason": "Spelare som dör genom nominering räknas som avrättade för Pacifisten."
       },
       {
         "id": "Devil's Advocate",
-        "reason": "Players that die by nomination register as being executed to the Devil's Advocate."
+        "reason": "Spelare som dör genom nominering räknas som avrättade för Djävulens advokat."
       },
       {
         "id": "Investigator",
-        "reason": "Riot registers as a Minion to the Investigator."
+        "reason": "Upplopp räknas som en Undersåte för Utredaren."
       },
       {
         "id": "Clockmaker",
-        "reason": "Riot registers as a Minion to the Clockmaker."
+        "reason": "Upplopp räknas som en Undersåte för Urmakaren."
       },
       {
         "id": "Town Crier",
-        "reason": "Riot registers as a Minion to the Town Crier."
+        "reason": "Upplopp räknas som en Undersåte för Utroparen."
       },
       {
         "id": "Damsel",
-        "reason": "Riot registers as a Minion to the Damsel."
+        "reason": "Upplopp räknas som en Undersåte för Fröken."
       },
       {
         "id": "Preacher",
-        "reason": "Riot registers as a Minion to the Preacher."
+        "reason": "Upplopp räknas som en Undersåte för Predikanten."
       }
     ]
   },
@@ -361,15 +361,15 @@
     "hatred": [
       {
         "id": "Mastermind",
-        "reason": "If the Mastermind is alive and the Lleech's host dies by execution, the Lleech lives but loses their ability. "
+        "reason": "Om Hjärnan lever och Lleechens värd dör genom avrättning lever Lleechen men förlorar sin förmåga."
       },
       {
         "id": "Slayer",
-        "reason": "If the Slayer slays the Lleech's host, the host dies. "
+        "reason": "Om Dråparen dräper Lleechens värd dör värden."
       },
       {
         "id": "Heretic",
-        "reason": "If the Lleech has poisoned the Heretic then the Lleech dies, the Heretic remains poisoned."
+        "reason": "Om Lleechen har förgiftat Kättaren och Lleechen sedan dör förblir Kättaren förgiftad."
       }
     ]
   }

@@ -8,12 +8,12 @@
       @click="toggleModal('nightOrder')"
       icon="cloud-moon"
       class="toggle"
-      title="Show Night Order"
+      title="Visa nattordning"
     />
     <h3>
-      Character Reference
+      Karaktärsreferens
       <font-awesome-icon icon="address-card" />
-      {{ edition.name || "Custom Script" }}
+      {{ edition.name || "Eget skript" }}
     </h3>
     <div
       v-for="(teamRoles, team) in rolesGrouped"
@@ -21,7 +21,7 @@
       :class="['team', team]"
     >
       <aside>
-        <h4>{{ team }}</h4>
+        <h4>{{ teamNames[team] || team }}</h4>
       </aside>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
@@ -53,7 +53,7 @@
 
     <div class="team jinxed" v-if="jinxed.length">
       <aside>
-        <h4>Jinxed</h4>
+        <h4>Förhäxade</h4>
       </aside>
       <ul>
         <li v-for="(jinx, index) in jinxed" :key="index">
@@ -95,6 +95,16 @@ export default {
   components: {
     Modal
   },
+  data: () => ({
+    teamNames: {
+      townsfolk: "Stadsbor",
+      outsider: "Utbölingar",
+      minion: "Undersåtar",
+      demon: "Demoner",
+      traveler: "Resenärer",
+      fabled: "Sagofigurer"
+    }
+  }),
   computed: {
     /**
      * Return a list of jinxes in the form of role IDs and a reason

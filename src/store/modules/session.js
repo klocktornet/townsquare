@@ -82,7 +82,7 @@ const mutations = {
       timestamp: new Date(),
       nominator: players[state.nomination[0]].name,
       nominee: players[state.nomination[1]].name,
-      type: isExile ? "Exile" : "Execution",
+      type: isExile ? "Landsförvisning" : "Avrättning",
       majority: Math.ceil(
         players.filter(player => !player.isDead || isExile).length / 2
       ),
